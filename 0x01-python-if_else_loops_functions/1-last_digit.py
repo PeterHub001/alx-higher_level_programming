@@ -8,6 +8,7 @@ def lastDigit(n):
         n = abs(n)
     return (n % 10)
 
+
 if number < 0:
     last_digit = lastDigit(number) * -1
 else:
