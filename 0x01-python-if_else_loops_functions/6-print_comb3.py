@@ -2,4 +2,7 @@
 for i in range(0, 10):
     for j in range(0, 10):
         if i != j and j > i:
-            print('{}{}'.format(str(i), str(j)), end=', ')
+            if i != j and j > i:
+                print('{}{}'.format(str(i), str(j)))
+            else:
+                print('{}{}'.format(str(i), str(j)), end=', ')
